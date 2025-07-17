@@ -1,0 +1,41 @@
+trust-bank/
+├── trustbank-backend/
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── server.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── adminController.js
+│   │   │   ├── transferController.js
+│   │   │   ├── transactionController.js
+│   │   │   ├── passwordResetController.js
+│   │   │   └── loanController.js
+│   │   ├── middleware/
+│   │   │   └── auth.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── admin.js
+│   │   │   ├── transfer.js
+│   │   │   ├── transaction.js
+│   │   │   ├── passwordReset.js
+│   │   │   └── loan.js
+│   │   └── utils/
+│   │       └── mailer.js
+│   ├── package.json
+│   └── .env.example
+│
+└── trustbank-frontend/
+    └── public/
+        ├── index.html
+        ├── login.html
+        ├── signup.html
+        ├── dashboard.html
+        ├── admin-portal.html
+        ├── admin-dashboard.html
+        ├── forgot-password.html
+        ├── reset-password.html
+        ├── styles/
+        │   └── main.css
+        └── assets/
